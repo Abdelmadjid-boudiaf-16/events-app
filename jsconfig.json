@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "target": "es6",
+    "jsx": "preserve",
+    "module": "commonjs",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["app/*", "components/*", "ui/*", "utils/*"]
     }
-  }
+  },
+  "include": ["app/**/*", "ui/**/*", "utils/**/*", "components/**/*"]
 }
