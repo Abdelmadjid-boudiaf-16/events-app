@@ -21,7 +21,7 @@ const EventItem = ({ event }) => {
           priority
         />
       </div>
-      <div className="flex-1 flex flex-col gap-5">
+      <div className="flex-1 flex flex-col gap-5 pl-3">
         <h1 className="text-4xl text-green-500 font-bold">{event.title}</h1>
         <div className="text-gray-500 font-semibold text-xl italic flex items-center gap-3">
           <IoLocationOutline />
